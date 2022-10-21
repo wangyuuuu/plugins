@@ -8,6 +8,9 @@ import android.content.Context;
 import io.flutter.plugin.common.StandardMessageCodec;
 import io.flutter.plugin.platform.PlatformView;
 import io.flutter.plugin.platform.PlatformViewFactory;
+import android.os.Build;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
 
 class FlutterWebViewFactory extends PlatformViewFactory {
   private final InstanceManager instanceManager;
